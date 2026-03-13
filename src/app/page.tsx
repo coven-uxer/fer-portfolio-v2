@@ -11,7 +11,13 @@ export default function Home() {
   return (
     <main
       className="w-screen h-screen overflow-hidden relative"
-      style={{ background: 'radial-gradient(ellipse at 20% 50%, #1e2a1e 0%, #0a0a0a 60%)' }}
+      style={{
+        backgroundColor: '#0e0e0e',
+        backgroundImage: 'url("/background.png")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
     >
 
       <PhoneShell />
