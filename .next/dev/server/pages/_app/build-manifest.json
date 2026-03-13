@@ -1,0 +1,25 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/5d8a2_next_dist_compiled_74407035._.js",
+      "static/chunks/5d8a2_next_dist_shared_lib_b0cc4e48._.js",
+      "static/chunks/5d8a2_next_dist_client_f9c86b5d._.js",
+      "static/chunks/5d8a2_next_dist_a1d4c003._.js",
+      "static/chunks/5d8a2_next_app_66100b93.js",
+      "static/chunks/[next]_entry_page-loader_ts_b87e2d30._.js",
+      "static/chunks/5d8a2_react_b05dce01._.js",
+      "static/chunks/5d8a2_react-dom_cjs_react-dom_development_02e23a7d.js",
+      "static/chunks/5d8a2_react-dom_fbb3e62b._.js",
+      "static/chunks/5d8a2_8ac6bf09._.js",
+      "static/chunks/[root-of-the-server]__9d22aef9._.js",
+      "static/chunks/Downloads_fer-portfolio-v2 2_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Downloads_fer-portfolio-v2 2_pages__app_c0f83b36._.js"
+    ]
+  },
+  "ampFirstPages": []
+}
