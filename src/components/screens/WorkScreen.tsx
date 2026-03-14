@@ -38,20 +38,20 @@ export default function WorkScreen({ onOpenProject }: WorkScreenProps) {
           onMouseMove={drag.onMouseMove}
           onMouseUp={drag.onMouseUp}
           onMouseLeave={drag.onMouseLeave}
-          className="flex gap-3 overflow-x-auto no-scrollbar pb-3 pr-1 select-none"
+          className="flex gap-0.05 overflow-x-auto no-scrollbar pb-3 pr-1 select-none"
           style={{ scrollSnapType: 'x mandatory', cursor: 'grab' }}
         >
           {projects.map((project) => (
             <motion.button
-              key={project.id}
-              onClick={() => { if (!drag.wasDrag()) onOpenProject(project.id) }}
-              whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}
-              transition={{ duration: 0.18 }}
-              className="flex-shrink-0 w-40 h-48 rounded-2xl p-4 flex flex-col justify-end text-left"
-              style={{ background: project.gradient, scrollSnapAlign: 'start', pointerEvents: 'auto' }}
+            key={project.id}
+            onClick={() => { if (!drag.wasDrag()) onOpenProject(project.id) }}
+            whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}
+            className="flex-shrink-0 w-44 h-56 rounded-2xl overflow-hidden relative"
+            style={{
+              backgroundImage: `url("${project.image}")`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center', }}
             >
-              <p className="font-serif text-[15px] text-white/90 leading-snug mb-1">{project.title}</p>
-              <p className="text-[10px] text-white/50 tracking-wide">{project.subtitle}</p>
             </motion.button>
           ))}
         </motion.div>

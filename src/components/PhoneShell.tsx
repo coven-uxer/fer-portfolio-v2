@@ -124,10 +124,7 @@ export default function PhoneShell({ isMobile = false }: PhoneShellProps) {
               </motion.button>
             ))}
           </nav>
-          <p className="text-[11px] text-[#aaa]">
-            This portfolio was programmed by<br />
-            <a href="#" className="text-[#666] underline">tomas-martinez</a>
-          </p>
+          <div />
         </motion.div>
       )}
     </AnimatePresence>
