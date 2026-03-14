@@ -1,9 +1,15 @@
+export interface ProjectLink {
+  label: string
+  href: string
+}
+
 export interface Project {
   id: string
   title: string
   subtitle: string
   gradient: string
   body: string[]
+  links: ProjectLink[]
 }
 
 export interface Contribution {
@@ -11,6 +17,7 @@ export interface Contribution {
   title: string
   preview: string
   body: string[]
+  links: ProjectLink[]
 }
 
 export interface Note {
@@ -32,6 +39,10 @@ export const projects: Project[] = [
       'The redesign introduced a modular card system for expense requests, real-time approval chains, and an activity feed that gave every stakeholder visibility without inbox overload. A new permission model allowed granular control without requiring IT intervention.',
       'The result was a 52% reduction in task completion time for common workflows, a 78% increase in user satisfaction scores, and adoption across three enterprise clients within the first quarter of launch.',
     ],
+    links: [
+      { label: 'Case Study', href: 'https://www.figma.com/@ferloeraux' },
+      { label: 'Prototype', href: 'https://www.figma.com/@ferloeraux' },
+    ],
   },
   {
     id: 'healthcare-ux',
@@ -43,6 +54,10 @@ export const projects: Project[] = [
       'We embedded with nursing staff during 12-hour shifts, observed handoffs between departments, and conducted cognitive load assessments during peak hours. The existing system demanded too much working memory at exactly the moments when nurses had none to spare.',
       'The new design prioritized progressive disclosure — showing only what\'s needed for the current task — alongside a customizable dashboard that allowed each role to configure their view. Color and iconography were redesigned to be legible under stress and on aging monitors.',
       'Post-launch audits showed a 34% reduction in documentation errors and a 29-minute reduction in average patient handoff time across participating facilities.',
+    ],
+    links: [
+      { label: 'Case Study', href: 'https://www.figma.com/@ferloeraux' },
+      { label: 'Prototype', href: 'https://www.figma.com/@ferloeraux' },
     ],
   },
   {
@@ -56,6 +71,10 @@ export const projects: Project[] = [
       'The solution was a layered information architecture — a high-level narrative view with progressive drill-down into raw data, all within the same screen flow. Custom chart components were built to communicate confidence intervals and trend direction in a single glance.',
       'Within six months of launch, weekly active users increased by 3x and the dashboard replaced four legacy reporting tools that had each required separate training programs.',
     ],
+    links: [
+      { label: 'Case Study', href: 'https://www.figma.com/@ferloeraux' },
+      { label: 'Prototype', href: 'https://www.figma.com/@ferloeraux' },
+    ],
   },
   {
     id: 'ecommerce',
@@ -67,6 +86,10 @@ export const projects: Project[] = [
       'The project began with a competitive audit and 20 moderated usability sessions. The key finding: customers expected the warmth and assistance of in-store staff but got cold, product-grid interfaces that prioritized inventory over experience.',
       'We introduced a guided discovery flow — a conversational layer that helped customers articulate what they were looking for — alongside contextual product storytelling and a redesigned checkout that reduced steps from 7 to 3.',
       'Cart abandonment dropped by 41% in the first two months. Average order value increased by 18%, attributed to the improved discovery experience surfacing complementary items in context rather than as a separate upsell step.',
+    ],
+    links: [
+      { label: 'Case Study', href: 'https://www.figma.com/@ferloeraux' },
+      { label: 'Prototype', href: 'https://www.figma.com/@ferloeraux' },
     ],
   },
 ]
@@ -82,6 +105,10 @@ export const contributions: Contribution[] = [
       'Published through Figma Community, it\'s been duplicated by over 3,000 teams and received contributions from designers across 14 countries. The token architecture is compatible with Tailwind CSS and vanilla CSS custom properties.',
       'Ongoing maintenance focuses on expanding the motion guidelines and adding a dark mode token layer that doesn\'t require maintaining two separate sets of components.',
     ],
+    links: [
+      { label: 'Figma Community', href: 'https://www.figma.com/@ferloeraux' },
+      { label: 'Documentation', href: 'https://www.figma.com/@ferloeraux' },
+    ],
   },
   {
     id: 'ux-lead',
@@ -94,6 +121,9 @@ export const contributions: Contribution[] = [
       'At the strategic level, I contributed to roadmap prioritization by quantifying design debt and user pain in terms that resonated with product and engineering partners.',
       'The team shipped 11 significant product improvements over 18 months, with an average satisfaction increase of 22 points per feature measured at 30-day post-launch.',
     ],
+    links: [
+      { label: 'Portfolio', href: 'https://www.figma.com/@ferloeraux' },
+    ],
   },
   {
     id: 'figma-community',
@@ -104,6 +134,10 @@ export const contributions: Contribution[] = [
       'Notable releases include a UX audit template duplicated 8,000+ times, a heuristic evaluation kit with pre-built severity scales, and a research synthesis board for turning interview data into actionable insights.',
       'Each release includes a companion article explaining the thinking behind the structure — not just what the file contains, but why it\'s organized the way it is.',
       'The community engagement has been genuinely reciprocal: feedback from users in Brazil, Germany, and India has shaped how I think about internationalization and the assumptions baked into Western design frameworks.',
+    ],
+    links: [
+      { label: 'Figma Community', href: 'https://www.figma.com/@ferloeraux' },
+      { label: 'UX Audit Template', href: 'https://www.figma.com/@ferloeraux' },
     ],
   },
 ]

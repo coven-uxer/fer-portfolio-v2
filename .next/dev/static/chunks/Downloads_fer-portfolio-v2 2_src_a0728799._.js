@@ -21,6 +21,16 @@ const projects = [
             'Through extensive user research — 14 interviews, diary studies, and contextual inquiry — we mapped the full journey of a financial transaction from request to reconciliation. The pain points were clear: too many handoffs, unclear ownership, and tools that weren\'t designed for collaborative finance.',
             'The redesign introduced a modular card system for expense requests, real-time approval chains, and an activity feed that gave every stakeholder visibility without inbox overload. A new permission model allowed granular control without requiring IT intervention.',
             'The result was a 52% reduction in task completion time for common workflows, a 78% increase in user satisfaction scores, and adoption across three enterprise clients within the first quarter of launch.'
+        ],
+        links: [
+            {
+                label: 'Case Study',
+                href: 'https://www.figma.com/@ferloeraux'
+            },
+            {
+                label: 'Prototype',
+                href: 'https://www.figma.com/@ferloeraux'
+            }
         ]
     },
     {
@@ -33,6 +43,16 @@ const projects = [
             'We embedded with nursing staff during 12-hour shifts, observed handoffs between departments, and conducted cognitive load assessments during peak hours. The existing system demanded too much working memory at exactly the moments when nurses had none to spare.',
             'The new design prioritized progressive disclosure — showing only what\'s needed for the current task — alongside a customizable dashboard that allowed each role to configure their view. Color and iconography were redesigned to be legible under stress and on aging monitors.',
             'Post-launch audits showed a 34% reduction in documentation errors and a 29-minute reduction in average patient handoff time across participating facilities.'
+        ],
+        links: [
+            {
+                label: 'Case Study',
+                href: 'https://www.figma.com/@ferloeraux'
+            },
+            {
+                label: 'Prototype',
+                href: 'https://www.figma.com/@ferloeraux'
+            }
         ]
     },
     {
@@ -45,6 +65,16 @@ const projects = [
             'Research revealed the tension: analysts needed granularity and raw data access; executives needed narrative and highlight detection. Neither group trusted a system built for the other. The challenge was designing one surface that served both without compromise.',
             'The solution was a layered information architecture — a high-level narrative view with progressive drill-down into raw data, all within the same screen flow. Custom chart components were built to communicate confidence intervals and trend direction in a single glance.',
             'Within six months of launch, weekly active users increased by 3x and the dashboard replaced four legacy reporting tools that had each required separate training programs.'
+        ],
+        links: [
+            {
+                label: 'Case Study',
+                href: 'https://www.figma.com/@ferloeraux'
+            },
+            {
+                label: 'Prototype',
+                href: 'https://www.figma.com/@ferloeraux'
+            }
         ]
     },
     {
@@ -57,6 +87,16 @@ const projects = [
             'The project began with a competitive audit and 20 moderated usability sessions. The key finding: customers expected the warmth and assistance of in-store staff but got cold, product-grid interfaces that prioritized inventory over experience.',
             'We introduced a guided discovery flow — a conversational layer that helped customers articulate what they were looking for — alongside contextual product storytelling and a redesigned checkout that reduced steps from 7 to 3.',
             'Cart abandonment dropped by 41% in the first two months. Average order value increased by 18%, attributed to the improved discovery experience surfacing complementary items in context rather than as a separate upsell step.'
+        ],
+        links: [
+            {
+                label: 'Case Study',
+                href: 'https://www.figma.com/@ferloeraux'
+            },
+            {
+                label: 'Prototype',
+                href: 'https://www.figma.com/@ferloeraux'
+            }
         ]
     }
 ];
@@ -70,6 +110,16 @@ const contributions = [
             'The system covers typography, color, spacing, interactive states, and accessibility guidelines. Every component includes usage notes, anti-patterns, and example compositions to reduce guesswork for designers and developers alike.',
             'Published through Figma Community, it\'s been duplicated by over 3,000 teams and received contributions from designers across 14 countries. The token architecture is compatible with Tailwind CSS and vanilla CSS custom properties.',
             'Ongoing maintenance focuses on expanding the motion guidelines and adding a dark mode token layer that doesn\'t require maintaining two separate sets of components.'
+        ],
+        links: [
+            {
+                label: 'Figma Community',
+                href: 'https://www.figma.com/@ferloeraux'
+            },
+            {
+                label: 'Documentation',
+                href: 'https://www.figma.com/@ferloeraux'
+            }
         ]
     },
     {
@@ -82,6 +132,12 @@ const contributions = [
             'I mentored three mid-level designers, running weekly design critiques focused on decision rationale rather than aesthetic preference. Each designer shipped at least one major feature independently within their first six months.',
             'At the strategic level, I contributed to roadmap prioritization by quantifying design debt and user pain in terms that resonated with product and engineering partners.',
             'The team shipped 11 significant product improvements over 18 months, with an average satisfaction increase of 22 points per feature measured at 30-day post-launch.'
+        ],
+        links: [
+            {
+                label: 'Portfolio',
+                href: 'https://www.figma.com/@ferloeraux'
+            }
         ]
     },
     {
@@ -93,6 +149,16 @@ const contributions = [
             'Notable releases include a UX audit template duplicated 8,000+ times, a heuristic evaluation kit with pre-built severity scales, and a research synthesis board for turning interview data into actionable insights.',
             'Each release includes a companion article explaining the thinking behind the structure — not just what the file contains, but why it\'s organized the way it is.',
             'The community engagement has been genuinely reciprocal: feedback from users in Brazil, Germany, and India has shaped how I think about internationalization and the assumptions baked into Western design frameworks.'
+        ],
+        links: [
+            {
+                label: 'Figma Community',
+                href: 'https://www.figma.com/@ferloeraux'
+            },
+            {
+                label: 'UX Audit Template',
+                href: 'https://www.figma.com/@ferloeraux'
+            }
         ]
     }
 ];
@@ -522,7 +588,7 @@ function WorkScreen({ onOpenProject }) {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                     variants: item,
-                    className: "flex gap-3 overflow-x-auto no-scrollbar -mx-6 px-6 pb-3",
+                    className: "flex gap-3 overflow-x-auto no-scrollbar pb-3 pr-1",
                     style: {
                         scrollSnapType: 'x mandatory'
                     },
@@ -1162,7 +1228,7 @@ const item = {
         y: 0
     }
 };
-function ProjectScreen({ projectId }) {
+function ProjectScreen({ projectId, onOpenLinks }) {
     const project = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["projects"].find((p)=>p.id === projectId);
     if (!project) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$ui$2f$Screen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1179,7 +1245,7 @@ function ProjectScreen({ projectId }) {
                         children: project.title
                     }, void 0, false, {
                         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                        lineNumber: 17,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1197,25 +1263,25 @@ function ProjectScreen({ projectId }) {
                                         children: step
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                        lineNumber: 21,
+                                        lineNumber: 25,
                                         columnNumber: 15
                                     }, this),
                                     i < 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex-1 h-px bg-[#ddd]"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                        lineNumber: 22,
+                                        lineNumber: 26,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, step, true, {
                                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                lineNumber: 20,
+                                lineNumber: 24,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                        lineNumber: 18,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this),
                     project.body.map((para, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1224,13 +1290,13 @@ function ProjectScreen({ projectId }) {
                             children: para
                         }, i, false, {
                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                            lineNumber: 27,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                lineNumber: 16,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1245,12 +1311,12 @@ function ProjectScreen({ projectId }) {
                 transition: {
                     delay: 0.4
                 },
-                className: "sticky bottom-4 flex justify-center mt-4",
+                className: "sticky bottom-4 flex justify-center mt-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-[#1a1a1a] rounded-full flex gap-0.5 p-1",
+                    className: "bg-[#111813] rounded-full flex gap-0.5 p-1.5 shadow-[0_16px_32px_rgba(12,12,13,0.1),0_4px_4px_rgba(12,12,13,0.05)]",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full text-[12px] font-medium text-white/80 bg-white/10 hover:bg-white/18 transition-colors",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full bg-white text-[#111813] text-[13px] font-medium cursor-default select-none",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                     width: "14",
@@ -1259,30 +1325,39 @@ function ProjectScreen({ projectId }) {
                                     fill: "none",
                                     stroke: "currentColor",
                                     strokeWidth: "2",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                        cx: "12",
-                                        cy: "12",
-                                        r: "3"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                        lineNumber: 36,
-                                        columnNumber: 111
-                                    }, this)
-                                }, void 0, false, {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                                            cx: "12",
+                                            cy: "12",
+                                            r: "3"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
+                                            lineNumber: 43,
+                                            columnNumber: 111
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
+                                            lineNumber: 43,
+                                            columnNumber: 142
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 43,
                                     columnNumber: 13
                                 }, this),
                                 "Read"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                            lineNumber: 35,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
-                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full text-[12px] font-medium text-white/80 bg-white/10 hover:bg-white/18 transition-colors",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>onOpenLinks(project.title, project.links),
+                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full text-[#625f5f] text-[13px] font-medium hover:text-white/80 transition-colors",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                     width: "14",
@@ -1296,44 +1371,44 @@ function ProjectScreen({ projectId }) {
                                             d: "M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 51,
                                             columnNumber: 111
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                             d: "M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 51,
                                             columnNumber: 179
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
                                 "Links"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                            lineNumber: 38,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                    lineNumber: 34,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-                lineNumber: 30,
+                lineNumber: 36,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ProjectScreen.tsx",
-        lineNumber: 15,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
@@ -1378,7 +1453,7 @@ const item = {
         y: 0
     }
 };
-function ContributionScreen({ contributionId }) {
+function ContributionScreen({ contributionId, onOpenLinks }) {
     const contribution = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["contributions"].find((c)=>c.id === contributionId);
     if (!contribution) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$ui$2f$Screen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1395,7 +1470,7 @@ function ContributionScreen({ contributionId }) {
                         children: "Contributions"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                        lineNumber: 17,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -1404,7 +1479,7 @@ function ContributionScreen({ contributionId }) {
                         children: contribution.title
                     }, void 0, false, {
                         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                        lineNumber: 18,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this),
                     contribution.body.map((para, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1413,13 +1488,13 @@ function ContributionScreen({ contributionId }) {
                             children: para
                         }, i, false, {
                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                            lineNumber: 20,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                lineNumber: 16,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1434,42 +1509,104 @@ function ContributionScreen({ contributionId }) {
                 transition: {
                     delay: 0.4
                 },
-                className: "sticky bottom-4 flex justify-center mt-4",
+                className: "sticky bottom-4 flex justify-center mt-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-[#1a1a1a] rounded-full flex gap-0.5 p-1",
+                    className: "bg-[#111813] rounded-full flex gap-0.5 p-1.5 shadow-[0_16px_32px_rgba(12,12,13,0.1),0_4px_4px_rgba(12,12,13,0.05)]",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full text-[12px] font-medium text-white/80 bg-white/10 hover:bg-white/18 transition-colors",
-                            children: "Read"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full bg-white text-[#111813] text-[13px] font-medium cursor-default select-none",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                    width: "14",
+                                    height: "14",
+                                    viewBox: "0 0 24 24",
+                                    fill: "none",
+                                    stroke: "currentColor",
+                                    strokeWidth: "2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                                            cx: "12",
+                                            cy: "12",
+                                            r: "3"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
+                                            lineNumber: 35,
+                                            columnNumber: 111
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
+                                            lineNumber: 35,
+                                            columnNumber: 142
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
+                                    lineNumber: 35,
+                                    columnNumber: 13
+                                }, this),
+                                "Read"
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                            lineNumber: 25,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
-                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full text-[12px] font-medium text-white/80 bg-white/10 hover:bg-white/18 transition-colors",
-                            children: "Links"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>onOpenLinks(contribution.title, contribution.links),
+                            className: "flex items-center gap-1.5 px-4 py-2 rounded-full text-[#625f5f] text-[13px] font-medium hover:text-white/80 transition-colors",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                    width: "14",
+                                    height: "14",
+                                    viewBox: "0 0 24 24",
+                                    fill: "none",
+                                    stroke: "currentColor",
+                                    strokeWidth: "2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
+                                            lineNumber: 42,
+                                            columnNumber: 111
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
+                                            lineNumber: 42,
+                                            columnNumber: 179
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
+                                    lineNumber: 42,
+                                    columnNumber: 13
+                                }, this),
+                                "Links"
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                            lineNumber: 26,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                    lineNumber: 24,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-                lineNumber: 23,
+                lineNumber: 29,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/screens/ContributionScreen.tsx",
-        lineNumber: 15,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
@@ -1488,6 +1625,7 @@ __turbopack_context__.s([
     ()=>PhoneShell
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/fer-portfolio-v2 2/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/fer-portfolio-v2 2/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/fer-portfolio-v2 2/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/fer-portfolio-v2 2/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$hooks$2f$usePortfolio$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/fer-portfolio-v2 2/src/hooks/usePortfolio.ts [app-client] (ecmascript)");
@@ -1510,13 +1648,360 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-function PhoneShell() {
+;
+function PhoneShell({ isMobile = false }) {
     _s();
     const { state, navTo, openProject, openContribution, goBack, openMenu, closeMenu, showPill, showBack, showMenu } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$hooks$2f$usePortfolio$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePortfolio"])();
     const { pos, onMouseDown } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$hooks$2f$useDraggable$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDraggable"])({
         x: 80,
         y: 60
     });
+    const [linksOverlay, setLinksOverlay] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const openLinks = (title, links)=>setLinksOverlay({
+            title,
+            links
+        });
+    const closeLinks = ()=>setLinksOverlay(null);
+    const screens = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+        mode: "wait",
+        children: [
+            state.currentScreen === 'work' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$WorkScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                onOpenProject: openProject
+            }, "work", false, {
+                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                lineNumber: 34,
+                columnNumber: 42
+            }, this),
+            state.currentScreen === 'about' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$AboutScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, "about", false, {
+                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                lineNumber: 35,
+                columnNumber: 43
+            }, this),
+            state.currentScreen === 'contributions' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ContributionsScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                onOpenContribution: openContribution
+            }, "contributions", false, {
+                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                lineNumber: 36,
+                columnNumber: 51
+            }, this),
+            state.currentScreen === 'connect' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ConnectScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, "connect", false, {
+                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                lineNumber: 37,
+                columnNumber: 45
+            }, this),
+            state.currentScreen === 'project' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ProjectScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                projectId: state.activeProjectId,
+                onOpenLinks: openLinks
+            }, `project-${state.activeProjectId}`, false, {
+                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                lineNumber: 38,
+                columnNumber: 45
+            }, this),
+            state.currentScreen === 'contribution' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ContributionScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                contributionId: state.activeContributionId,
+                onOpenLinks: openLinks
+            }, `contribution-${state.activeContributionId}`, false, {
+                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                lineNumber: 39,
+                columnNumber: 50
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+        lineNumber: 33,
+        columnNumber: 5
+    }, this);
+    const menuButton = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+        children: showMenu && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+            initial: {
+                opacity: 0
+            },
+            animate: {
+                opacity: 1
+            },
+            exit: {
+                opacity: 0
+            },
+            onClick: openMenu,
+            className: "absolute top-5 right-5 w-8 h-8 bg-white/70 backdrop-blur-sm rounded-lg flex flex-col items-center justify-center gap-1 z-[160] hover:bg-white/90 transition-colors",
+            children: [
+                0,
+                1,
+                2
+            ].map((i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "w-4 h-px bg-[#444] rounded block"
+                }, i, false, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 52,
+                    columnNumber: 29
+                }, this))
+        }, "menu", false, {
+            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+            lineNumber: 46,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+        lineNumber: 44,
+        columnNumber: 5
+    }, this);
+    const backButton = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+        children: showBack && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+            initial: {
+                opacity: 0,
+                x: -8
+            },
+            animate: {
+                opacity: 1,
+                x: 0
+            },
+            exit: {
+                opacity: 0,
+                x: -8
+            },
+            onClick: goBack,
+            className: "absolute top-5 left-5 w-8 h-8 bg-white/70 backdrop-blur-sm rounded-lg flex items-center justify-center z-[160] text-[#444] text-base hover:bg-white/90 transition-colors",
+            children: "←"
+        }, "back", false, {
+            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+            lineNumber: 61,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+        lineNumber: 59,
+        columnNumber: 5
+    }, this);
+    // Work/About pill — only shows on work & about screens
+    const workAboutPill = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+        children: showPill && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            initial: {
+                opacity: 0,
+                y: 12
+            },
+            animate: {
+                opacity: 1,
+                y: 0
+            },
+            exit: {
+                opacity: 0,
+                y: 12
+            },
+            className: "absolute bottom-6 left-1/2 -translate-x-1/2 bg-[#111813] rounded-full flex gap-0.5 p-1.5 z-30 shadow-[0_16px_32px_rgba(12,12,13,0.1),0_4px_4px_rgba(12,12,13,0.05)]",
+            children: [
+                'work',
+                'about'
+            ].map((tab)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: ()=>navTo(tab),
+                    className: `px-4 py-2 rounded-full text-[13px] font-medium transition-all capitalize ${state.currentScreen === tab ? 'bg-white text-[#111813]' : 'text-[#625f5f] hover:text-white/80'}`,
+                    children: tab.charAt(0).toUpperCase() + tab.slice(1)
+                }, tab, false, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 83,
+                    columnNumber: 13
+                }, this))
+        }, "pill", false, {
+            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+            lineNumber: 77,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+        lineNumber: 75,
+        columnNumber: 5
+    }, this);
+    const menuOverlay = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+        children: state.menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            initial: {
+                opacity: 0
+            },
+            animate: {
+                opacity: 1
+            },
+            exit: {
+                opacity: 0
+            },
+            transition: {
+                duration: 0.2
+            },
+            className: "absolute inset-0 z-[200] flex flex-col justify-between p-7 pt-16",
+            style: {
+                background: 'rgba(240,240,238,0.92)',
+                backdropFilter: 'blur(12px)'
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: closeMenu,
+                    className: "absolute top-5 right-5 w-8 h-8 bg-black/8 rounded-lg text-base text-[#666] flex items-center justify-center hover:bg-black/12",
+                    children: "✕"
+                }, void 0, false, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 110,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                    className: "flex flex-col gap-1",
+                    children: [
+                        'work',
+                        'about',
+                        'contributions',
+                        'connect'
+                    ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                            initial: {
+                                opacity: 0,
+                                x: -16
+                            },
+                            animate: {
+                                opacity: 1,
+                                x: 0
+                            },
+                            transition: {
+                                delay: i * 0.06
+                            },
+                            onClick: ()=>navTo(item),
+                            className: "font-serif text-[36px] text-[#1a1a1a] text-left py-1 capitalize hover:text-[#5a7a5c] transition-colors bg-transparent border-none",
+                            children: item.charAt(0).toUpperCase() + item.slice(1)
+                        }, item, false, {
+                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                            lineNumber: 116,
+                            columnNumber: 15
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 114,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-[11px] text-[#aaa]",
+                    children: [
+                        "This portfolio was programmed by",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                            lineNumber: 128,
+                            columnNumber: 45
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "#",
+                            className: "text-[#666] underline",
+                            children: "tomas-martinez"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                            lineNumber: 129,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 127,
+                    columnNumber: 11
+                }, this)
+            ]
+        }, "menu-overlay", true, {
+            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+            lineNumber: 103,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+        lineNumber: 101,
+        columnNumber: 5
+    }, this);
+    // Links overlay — shared between project and contribution screens
+    const linksOverlayEl = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+        children: linksOverlay && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            initial: {
+                opacity: 0
+            },
+            animate: {
+                opacity: 1
+            },
+            exit: {
+                opacity: 0
+            },
+            transition: {
+                duration: 0.22
+            },
+            className: "absolute inset-0 z-[200] flex flex-col justify-between p-7 pt-16",
+            style: {
+                background: 'rgba(240,240,238,0.92)'
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: closeLinks,
+                    className: "absolute top-5 right-5 w-8 h-8 bg-black/8 rounded-lg text-base text-[#666] flex items-center justify-center hover:bg-black/12",
+                    children: "✕"
+                }, void 0, false, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 147,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                    className: "flex flex-col gap-1",
+                    children: linksOverlay.links.map((link, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                            href: link.href,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            initial: {
+                                opacity: 0,
+                                x: -16
+                            },
+                            animate: {
+                                opacity: 1,
+                                x: 0
+                            },
+                            transition: {
+                                delay: i * 0.06
+                            },
+                            className: "font-serif text-[24px] text-[#1a1a1a] text-left py-1 hover:text-[#5a7a5c] hover:underline transition-colors",
+                            children: link.label
+                        }, link.label, false, {
+                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                            lineNumber: 154,
+                            columnNumber: 15
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 152,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
+                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+                    lineNumber: 168,
+                    columnNumber: 11
+                }, this)
+            ]
+        }, "links-overlay", true, {
+            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+            lineNumber: 140,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+        lineNumber: 138,
+        columnNumber: 5
+    }, this);
+    // ── Mobile layout ──────────────────────────────────────────────
+    if (isMobile) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "absolute inset-0 w-full h-full",
+            style: {
+                background: '#f0f0ee'
+            },
+            children: [
+                menuButton,
+                backButton,
+                screens,
+                workAboutPill,
+                menuOverlay,
+                linksOverlayEl
+            ]
+        }, void 0, true, {
+            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
+            lineNumber: 177,
+            columnNumber: 7
+        }, this);
+    }
+    // ── Desktop layout (original) ──────────────────────────────────
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "absolute",
         style: {
@@ -1531,7 +2016,7 @@ function PhoneShell() {
                 onMouseDown: onMouseDown
             }, void 0, false, {
                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                lineNumber: 19,
+                lineNumber: 192,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1549,277 +2034,42 @@ function PhoneShell() {
                                 className: "w-2.5 h-2.5 rounded-full bg-[#1a1a1a]"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 35,
+                                lineNumber: 208,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-2 h-2 rounded-full bg-[#22aa55]"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 36,
+                                lineNumber: 209,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                        lineNumber: 34,
+                        lineNumber: 207,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                        children: showMenu && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                            initial: {
-                                opacity: 0
-                            },
-                            animate: {
-                                opacity: 1
-                            },
-                            exit: {
-                                opacity: 0
-                            },
-                            onClick: openMenu,
-                            className: "absolute top-5 right-5 w-8 h-8 bg-white/70 backdrop-blur-sm rounded-lg flex flex-col items-center justify-center gap-1 z-[160] hover:bg-white/90 transition-colors",
-                            children: [
-                                0,
-                                1,
-                                2
-                            ].map((i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "w-4 h-px bg-[#444] rounded block"
-                                }, i, false, {
-                                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 33
-                                }, this))
-                        }, "menu", false, {
-                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                            lineNumber: 42,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                        lineNumber: 40,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                        children: showBack && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                            initial: {
-                                opacity: 0,
-                                x: -8
-                            },
-                            animate: {
-                                opacity: 1,
-                                x: 0
-                            },
-                            exit: {
-                                opacity: 0,
-                                x: -8
-                            },
-                            onClick: goBack,
-                            className: "absolute top-5 left-5 w-8 h-8 bg-white/70 backdrop-blur-sm rounded-lg flex items-center justify-center z-[160] text-[#444] text-base hover:bg-white/90 transition-colors",
-                            children: "←"
-                        }, "back", false, {
-                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                            lineNumber: 56,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                        lineNumber: 54,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                        mode: "wait",
-                        children: [
-                            state.currentScreen === 'work' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$WorkScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                onOpenProject: openProject
-                            }, "work", false, {
-                                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 69,
-                                columnNumber: 46
-                            }, this),
-                            state.currentScreen === 'about' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$AboutScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, "about", false, {
-                                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 70,
-                                columnNumber: 47
-                            }, this),
-                            state.currentScreen === 'contributions' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ContributionsScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                onOpenContribution: openContribution
-                            }, "contributions", false, {
-                                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 71,
-                                columnNumber: 55
-                            }, this),
-                            state.currentScreen === 'connect' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ConnectScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, "connect", false, {
-                                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 72,
-                                columnNumber: 49
-                            }, this),
-                            state.currentScreen === 'project' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ProjectScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                projectId: state.activeProjectId
-                            }, `project-${state.activeProjectId}`, false, {
-                                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 73,
-                                columnNumber: 49
-                            }, this),
-                            state.currentScreen === 'contribution' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$screens$2f$ContributionScreen$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                contributionId: state.activeContributionId
-                            }, `contribution-${state.activeContributionId}`, false, {
-                                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                lineNumber: 74,
-                                columnNumber: 54
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                        lineNumber: 68,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                        children: showPill && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                            initial: {
-                                opacity: 0,
-                                y: 12
-                            },
-                            animate: {
-                                opacity: 1,
-                                y: 0
-                            },
-                            exit: {
-                                opacity: 0,
-                                y: 12
-                            },
-                            className: "absolute bottom-6 left-1/2 -translate-x-1/2 bg-[#1a1a1a] rounded-full flex gap-0.5 p-1 z-30",
-                            children: [
-                                'work',
-                                'about'
-                            ].map((tab)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>navTo(tab),
-                                    className: `px-5 py-2 rounded-full text-[13px] font-medium transition-all capitalize ${state.currentScreen === tab ? 'bg-white/12 text-white' : 'text-white/40 hover:text-white/70'}`,
-                                    children: tab.charAt(0).toUpperCase() + tab.slice(1)
-                                }, tab, false, {
-                                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                    lineNumber: 86,
-                                    columnNumber: 17
-                                }, this))
-                        }, "pill", false, {
-                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                            lineNumber: 80,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                        lineNumber: 78,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                        children: state.menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                            initial: {
-                                opacity: 0
-                            },
-                            animate: {
-                                opacity: 1
-                            },
-                            exit: {
-                                opacity: 0
-                            },
-                            transition: {
-                                duration: 0.2
-                            },
-                            className: "absolute inset-0 z-[200] flex flex-col justify-between p-7 pt-16",
-                            style: {
-                                background: 'rgba(240,240,238,0.92)',
-                                backdropFilter: 'blur(12px)'
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: closeMenu,
-                                    className: "absolute top-5 right-5 w-8 h-8 bg-black/8 rounded-lg text-base text-[#666] flex items-center justify-center hover:bg-black/12",
-                                    children: "✕"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                    lineNumber: 110,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                                    className: "flex flex-col gap-1",
-                                    children: [
-                                        'work',
-                                        'about',
-                                        'contributions',
-                                        'connect'
-                                    ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                                            initial: {
-                                                opacity: 0,
-                                                x: -16
-                                            },
-                                            animate: {
-                                                opacity: 1,
-                                                x: 0
-                                            },
-                                            transition: {
-                                                delay: i * 0.06
-                                            },
-                                            onClick: ()=>navTo(item),
-                                            className: "font-serif text-[36px] text-[#1a1a1a] text-left py-1 capitalize hover:text-[#5a7a5c] transition-colors bg-transparent border-none",
-                                            children: item.charAt(0).toUpperCase() + item.slice(1)
-                                        }, item, false, {
-                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                            lineNumber: 116,
-                                            columnNumber: 19
-                                        }, this))
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                    lineNumber: 114,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-[11px] text-[#aaa]",
-                                    children: [
-                                        "This portfolio was programmed by",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                            lineNumber: 128,
-                                            columnNumber: 49
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "#",
-                                            className: "text-[#666] underline",
-                                            children: "tomas-martinez"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                            lineNumber: 129,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                                    lineNumber: 127,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, "menu-overlay", true, {
-                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                            lineNumber: 103,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                        lineNumber: 101,
-                        columnNumber: 9
-                    }, this)
+                    menuButton,
+                    backButton,
+                    screens,
+                    workAboutPill,
+                    menuOverlay,
+                    linksOverlayEl
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-                lineNumber: 25,
+                lineNumber: 198,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/components/PhoneShell.tsx",
-        lineNumber: 17,
+        lineNumber: 190,
         columnNumber: 5
     }, this);
 }
-_s(PhoneShell, "eJYLoQKSrBaNtAfEM8sMOTbRBCE=", false, function() {
+_s(PhoneShell, "UQ6i4Sya8C3m4mlsC09LlpmMQVw=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$hooks$2f$usePortfolio$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePortfolio"],
         __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$hooks$2f$useDraggable$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDraggable"]
@@ -2484,9 +2734,28 @@ var _s = __turbopack_context__.k.signature();
 function Home() {
     _s();
     const [notesOpen, setNotesOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isMobile, setIsMobile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isTablet, setIsTablet] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Home.useEffect": ()=>{
+            const update = {
+                "Home.useEffect.update": ()=>{
+                    setIsMobile(window.innerWidth < 640);
+                    setIsTablet(window.innerWidth < 1024);
+                }
+            }["Home.useEffect.update"];
+            update();
+            window.addEventListener('resize', update);
+            return ({
+                "Home.useEffect": ()=>window.removeEventListener('resize', update)
+            })["Home.useEffect"];
+        }
+    }["Home.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "w-screen h-screen overflow-hidden relative",
-        style: {
+        style: isMobile ? {
+            backgroundColor: '#f0f0ee'
+        } : {
             backgroundColor: '#0e0e0e',
             backgroundImage: 'url("/background.png")',
             backgroundSize: 'cover',
@@ -2494,40 +2763,46 @@ function Home() {
             backgroundRepeat: 'no-repeat'
         },
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$PhoneShell$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
-                lineNumber: 23,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                children: notesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$NotesWindow$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    isOpen: notesOpen,
-                    onClose: ()=>setNotesOpen(false)
-                }, void 0, false, {
-                    fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
-                    lineNumber: 27,
-                    columnNumber: 11
-                }, this)
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$PhoneShell$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                isMobile: isMobile
             }, void 0, false, {
                 fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
-                lineNumber: 25,
+                lineNumber: 36,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$Dock$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                onNotesToggle: ()=>setNotesOpen((o)=>!o)
-            }, void 0, false, {
-                fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
-                lineNumber: 31,
-                columnNumber: 7
-            }, this)
+            !isTablet && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                        children: notesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$NotesWindow$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            isOpen: notesOpen,
+                            onClose: ()=>setNotesOpen(false)
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
+                            lineNumber: 42,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
+                        lineNumber: 40,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$fer$2d$portfolio$2d$v2__2$2f$src$2f$components$2f$Dock$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        onNotesToggle: ()=>setNotesOpen((o)=>!o)
+                    }, void 0, false, {
+                        fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
+                        lineNumber: 45,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true)
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/fer-portfolio-v2 2/src/app/page.tsx",
-        lineNumber: 12,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }
-_s(Home, "CBENIglK0Sesu5n3309kvzx/Nss=");
+_s(Home, "c3n79kMOlpznxzzCerjXKATknog=");
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");
