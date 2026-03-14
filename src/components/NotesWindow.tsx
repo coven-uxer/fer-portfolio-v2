@@ -1,7 +1,7 @@
 'use client'
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
-import { defaultNotes, type Note } from '@/data/content'
+import { defaultNotes, type Note, type NoteLink } from '@/data/content'
 
 interface NotesWindowProps {
   isOpen: boolean
@@ -150,13 +150,34 @@ export default function NotesWindow({ isOpen, onClose }: NotesWindowProps) {
             onChange={e => updateNote(activeId, 'title', e.target.value)}
             placeholder="Title"
           />
-          <textarea
-            className="flex-1 text-[13px] text-[#333] leading-relaxed border-none outline-none bg-transparent w-full resize-none"
-            style={{ fontFamily: 'inherit' }}
-            value={activeNote?.body ?? ''}
-            onChange={e => updateNote(activeId, 'body', e.target.value)}
-            placeholder="Start writing..."
-          />
+          <div className="flex-1 overflow-y-auto no-scrollbar">
+            <textarea
+              className="w-full text-[13px] text-[#333] leading-relaxed border-none outline-none bg-transparent resize-none"
+              style={{ fontFamily: 'inherit', minHeight: 160 }}
+              value={activeNote?.body ?? ''}
+              onChange={e => updateNote(activeId, 'body', e.target.value)}
+              placeholder="Start writing..."
+            />
+          </div>
+          {activeNote?.links && activeNote.links.length > 0 && (
+            <div className="flex flex-col gap-2 pt-3 pb-1 border-t border-[#d8d8d3]">
+              {activeNote.links.map((link: NoteLink, i: number) => (
+                <a
+                  key={i}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-[12px] text-[#5a7a5c] hover:text-[#3d5c3f] transition-colors"
+                >
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/>
+                    <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/>
+                  </svg>
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          )}
           <div className="flex gap-2 mt-3">
             {['# Important', '# WIP'].map(tag => (
               <span key={tag} className="px-2.5 py-1 bg-black/6 rounded-full text-[10px] text-[#666] cursor-pointer hover:bg-black/10">

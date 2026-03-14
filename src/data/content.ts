@@ -20,11 +20,17 @@ export interface Contribution {
   links: ProjectLink[]
 }
 
+export interface NoteLink {
+  label: string
+  href: string
+}
+
 export interface Note {
   id: number
   title: string
   date: string
   body: string
+  links?: NoteLink[]
 }
 
 export const projects: Project[] = [
@@ -137,7 +143,10 @@ export const defaultNotes: Note[] = [
     id: 1,
     title: 'Portfolio en construcción',
     date: 'Hoy',
-    body: 'Este portafolio se encuentra actualmente en construcción.\n\nPróximamente:\n• Casos de estudio completos\n• Versión en inglés y español\n• Links actualizados'  
+    body: 'Este portafolio se encuentra actualmente en construcción.\n\nPróximamente:\n• Casos de estudio completos\n• Versión en inglés y español\n• Links actualizados',
+    links: [
+      { label: 'Ver portafolio anterior (Figma Make)', href: 'https://wonder-ruby-90313387.figma.site/' },
+    ],
   },
   {
     id: 2,
